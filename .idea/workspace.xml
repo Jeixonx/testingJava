@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9696113-2f2e-4bf5-946f-6ba99e3d6da2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/payments/PaymentGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/payments/PaymentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/payments/PaymentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/payments/PaymentResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/payments/PaymentProcessorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/payments/PaymentProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/payments/PaymentProcessorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +37,9 @@
   "keyToString": {
     "Application.StringUtilTest.executor": "Run",
     "JUnit.PasswordUtilTest.executor": "Run",
+    "JUnit.PaymentProcessorTest.executor": "Run",
+    "JUnit.PaymentProcessorTest.payment_is_correct.executor": "Run",
+    "JUnit.PaymentProcessorTest.payment_is_incorrect.executor": "Run",
     "JUnit.PlayerTest.loses_when_dice_number_is_big.executor": "Run",
     "JUnit.PlayerTest.loses_when_dice_number_is_too_low.executor": "Run",
     "JUnit.StringUtilTest.executor": "Run",
@@ -70,17 +68,17 @@
       <recent name="com.platzi.javatests.util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PaymentProcessorTest.payment_is_incorrect">
-    <configuration name="PasswordUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PaymentProcessorTest">
+    <configuration name="PaymentProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platzi.javatests.util.*" />
+          <option name="PATTERN" value="com.platzi.javatests.payments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.javatests.util" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.util.PasswordUtilTest" />
+      <option name="PACKAGE_NAME" value="com.platzi.javatests.payments" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.payments.PaymentProcessorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PaymentProcessorTest.payment_is_incorrect" />
+        <item itemvalue="JUnit.PaymentProcessorTest" />
         <item itemvalue="JUnit.PaymentProcessorTest.payment_is_correct" />
+        <item itemvalue="JUnit.PaymentProcessorTest.payment_is_incorrect" />
         <item itemvalue="JUnit.PlayerTest.loses_when_dice_number_is_big" />
         <item itemvalue="JUnit.PlayerTest.loses_when_dice_number_is_too_low" />
-        <item itemvalue="JUnit.PasswordUtilTest" />
       </list>
     </recent_temporary>
   </component>
