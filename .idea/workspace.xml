@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9696113-2f2e-4bf5-946f-6ba99e3d6da2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/player/Dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/player/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/player/PlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/payments/PaymentGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/payments/PaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/payments/PaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/payments/PaymentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/payments/PaymentProcessorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
@@ -39,6 +42,7 @@
   "keyToString": {
     "Application.StringUtilTest.executor": "Run",
     "JUnit.PasswordUtilTest.executor": "Run",
+    "JUnit.PlayerTest.loses_when_dice_number_is_big.executor": "Run",
     "JUnit.PlayerTest.loses_when_dice_number_is_too_low.executor": "Run",
     "JUnit.StringUtilTest.executor": "Run",
     "JUnit.StringUtilTest.repeat_string_negative_times.executor": "Run",
@@ -54,15 +58,19 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.platzi.javatests.payments" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.platzi.javatests.payments" />
       <recent name="com.platzi.javatests.player" />
       <recent name="com.platzi.javatests.util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerTest.loses_when_dice_number_is_big">
+  <component name="RunManager" selected="JUnit.PaymentProcessorTest.payment_is_incorrect">
     <configuration name="PasswordUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
@@ -74,6 +82,38 @@
       <option name="PACKAGE_NAME" value="com.platzi.javatests.util" />
       <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.util.PasswordUtilTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentProcessorTest.payment_is_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.javatests.payments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.javatests.payments" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.payments.PaymentProcessorTest" />
+      <option name="METHOD_NAME" value="payment_is_correct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentProcessorTest.payment_is_incorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.javatests.payments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.javatests.payments" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.payments.PaymentProcessorTest" />
+      <option name="METHOD_NAME" value="payment_is_incorrect" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,37 +150,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javatests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platzi.javatests.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.javatests.util" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.util.StringUtilTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringUtilTest.repeat_string_negative_times" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javatests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platzi.javatests.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.javatests.util" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.util.StringUtilTest" />
-      <option name="METHOD_NAME" value="repeat_string_negative_times" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="javatests" />
       <method v="2">
@@ -156,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PaymentProcessorTest.payment_is_incorrect" />
+        <item itemvalue="JUnit.PaymentProcessorTest.payment_is_correct" />
         <item itemvalue="JUnit.PlayerTest.loses_when_dice_number_is_big" />
         <item itemvalue="JUnit.PlayerTest.loses_when_dice_number_is_too_low" />
         <item itemvalue="JUnit.PasswordUtilTest" />
-        <item itemvalue="JUnit.StringUtilTest.repeat_string_negative_times" />
-        <item itemvalue="JUnit.StringUtilTest" />
       </list>
     </recent_temporary>
   </component>
