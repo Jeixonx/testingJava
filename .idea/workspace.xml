@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9696113-2f2e-4bf5-946f-6ba99e3d6da2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/util/StringUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/util/StringUtilTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +35,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.StringUtilTest.executor": "Run",
+    "JUnit.StringUtilTest.executor": "Run",
+    "JUnit.StringUtilTest.repeat_string_negative_times.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -55,7 +56,7 @@
       <recent name="com.platzi.javatests.util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringUtilTest">
+  <component name="RunManager" selected="JUnit.StringUtilTest.repeat_string_negative_times">
     <configuration name="StringUtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.util.StringUtilTest" />
       <module name="javatests" />
@@ -84,6 +85,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringUtilTest.repeat_string_negative_times" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.javatests.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.javatests.util" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.util.StringUtilTest" />
+      <option name="METHOD_NAME" value="repeat_string_negative_times" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="javatests" />
       <method v="2">
@@ -99,6 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringUtilTest.repeat_string_negative_times" />
         <item itemvalue="JUnit.StringUtilTest" />
         <item itemvalue="Application.StringUtilTest" />
       </list>
