@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9696113-2f2e-4bf5-946f-6ba99e3d6da2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/payments/PaymentProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/payments/PaymentProcessorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/util/DateUtilShould.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.StringUtilTest.executor": "Run",
+    "JUnit.DateUtilShould.executor": "Run",
     "JUnit.PasswordUtilTest.executor": "Run",
     "JUnit.PaymentProcessorTest.executor": "Run",
     "JUnit.PaymentProcessorTest.payment_is_correct.executor": "Run",
@@ -63,12 +65,27 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.platzi.javatests.util" />
       <recent name="com.platzi.javatests.payments" />
       <recent name="com.platzi.javatests.player" />
-      <recent name="com.platzi.javatests.util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PaymentProcessorTest">
+  <component name="RunManager" selected="JUnit.DateUtilShould">
+    <configuration name="DateUtilShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.javatests.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.javatests.util" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.util.DateUtilShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
@@ -132,22 +149,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest.loses_when_dice_number_is_too_low" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javatests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platzi.javatests.player.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.javatests.player" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.player.PlayerTest" />
-      <option name="METHOD_NAME" value="loses_when_dice_number_is_too_low" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="javatests" />
       <method v="2">
@@ -163,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DateUtilShould" />
         <item itemvalue="JUnit.PaymentProcessorTest" />
         <item itemvalue="JUnit.PaymentProcessorTest.payment_is_correct" />
         <item itemvalue="JUnit.PaymentProcessorTest.payment_is_incorrect" />
         <item itemvalue="JUnit.PlayerTest.loses_when_dice_number_is_big" />
-        <item itemvalue="JUnit.PlayerTest.loses_when_dice_number_is_too_low" />
       </list>
     </recent_temporary>
   </component>
