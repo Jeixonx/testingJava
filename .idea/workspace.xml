@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9696113-2f2e-4bf5-946f-6ba99e3d6da2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/data/MovieRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/model/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/model/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/service/MovieService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/movies/service/MovieServiceShould.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/service/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/movies/service/MovieServiceShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/movies/service/MovieServiceShould.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +40,7 @@
     "Application.StringUtilTest.executor": "Run",
     "JUnit.DateUtilShould.executor": "Run",
     "JUnit.MovieServiceShould.return_movies_by_genre.executor": "Run",
+    "JUnit.MovieServiceShould.return_movies_by_length.executor": "Run",
     "JUnit.PasswordUtilTest.executor": "Run",
     "JUnit.PaymentProcessorTest.executor": "Run",
     "JUnit.PaymentProcessorTest.payment_is_correct.executor": "Run",
@@ -81,7 +79,22 @@
       <recent name="com.platzi.javatests.player" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MovieServiceShould.return_movies_by_genre">
+  <component name="RunManager" selected="JUnit.MovieServiceShould">
+    <configuration name="MovieServiceShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.javatests.movies.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.javatests.movies.service" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.movies.service.MovieServiceShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MovieServiceShould.return_movies_by_genre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
@@ -98,32 +111,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieServiceShould.return_movies_by_length" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platzi.javatests.player.*" />
+          <option name="PATTERN" value="com.platzi.javatests.movies.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.javatests.player" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.player.PlayerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlayerTest.loses_when_dice_number_is_big" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javatests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platzi.javatests.player.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.javatests.player" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.player.PlayerTest" />
-      <option name="METHOD_NAME" value="loses_when_dice_number_is_big" />
+      <option name="PACKAGE_NAME" value="com.platzi.javatests.movies.service" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.movies.service.MovieServiceShould" />
+      <option name="METHOD_NAME" value="return_movies_by_length" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MovieServiceShould" />
+        <item itemvalue="JUnit.MovieServiceShould.return_movies_by_length" />
         <item itemvalue="JUnit.MovieServiceShould.return_movies_by_genre" />
         <item itemvalue="JUnit.PriceCalculatorShould.apply_discount_to_prices" />
         <item itemvalue="JUnit.PriceCalculatorShould" />
-        <item itemvalue="JUnit.PlayerTest" />
-        <item itemvalue="JUnit.PlayerTest.loses_when_dice_number_is_big" />
       </list>
     </recent_temporary>
   </component>
