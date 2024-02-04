@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9696113-2f2e-4bf5-946f-6ba99e3d6da2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/discounts/PriceCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/discounts/PriceCalculatorShould.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/data/MovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/model/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/model/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/service/MovieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/movies/service/MovieServiceShould.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/player/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/player/PlayerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,7 @@
   "keyToString": {
     "Application.StringUtilTest.executor": "Run",
     "JUnit.DateUtilShould.executor": "Run",
+    "JUnit.MovieServiceShould.return_movies_by_genre.executor": "Run",
     "JUnit.PasswordUtilTest.executor": "Run",
     "JUnit.PaymentProcessorTest.executor": "Run",
     "JUnit.PaymentProcessorTest.payment_is_correct.executor": "Run",
@@ -64,30 +67,33 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.platzi.javatests.movies.model" />
       <recent name="com.platzi.javatests.payments" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.platzi.javatests.movies.service" />
       <recent name="com.platzi.javatests.discounts" />
       <recent name="com.platzi.javatests.util" />
       <recent name="com.platzi.javatests.payments" />
       <recent name="com.platzi.javatests.player" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PriceCalculatorShould.apply_discount_to_prices">
-    <configuration name="DateUtilShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MovieServiceShould.return_movies_by_genre">
+    <configuration name="MovieServiceShould.return_movies_by_genre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platzi.javatests.util.*" />
+          <option name="PATTERN" value="com.platzi.javatests.movies.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.javatests.util" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.util.DateUtilShould" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.platzi.javatests.movies.service" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.movies.service.MovieServiceShould" />
+      <option name="METHOD_NAME" value="return_movies_by_genre" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MovieServiceShould.return_movies_by_genre" />
         <item itemvalue="JUnit.PriceCalculatorShould.apply_discount_to_prices" />
         <item itemvalue="JUnit.PriceCalculatorShould" />
         <item itemvalue="JUnit.PlayerTest" />
         <item itemvalue="JUnit.PlayerTest.loses_when_dice_number_is_big" />
-        <item itemvalue="JUnit.DateUtilShould" />
       </list>
     </recent_temporary>
   </component>
